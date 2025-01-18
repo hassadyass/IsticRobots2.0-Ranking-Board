@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Viking';
+    src: url('fonts/PR Viking.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Spartacus';
+    src:url('fonts/Spartacus-KVdLp.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+    body{
+    background-image: url(bg/bg.png);
+    background-repeat: no-repeat; 
+    background-size:cover;
+  }
+  .table tr th ,.table tr td {
+    font-family: 'Spartacus','Viking';
+    
+}
+.table tr th{
+    color: #571F12;
+    font-size: xx-large;
+    
+}
+.table tr td{
+    color: black;
+    font-size: x-large;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.table {
+    width: 80%;
+    border-color: black;
+    
+}
+
+ 
+
+  
