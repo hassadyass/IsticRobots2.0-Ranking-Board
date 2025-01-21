@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Viking';
+    src: url('/fonts/PR\ Viking.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Spartacus';
+    src:url('/fonts/Spartacus-KVdLp.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Viking Alternates';
+    src: url('/fonts/PR\ Viking\ Alternates.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+    filter: brightness(0.7);
+  }
+  
+  .table tr th ,.table tr td {
+    font-family: 'Viking','Viking Alternates';
+    text-align: center; 
+    vertical-align: middle;
+    
+    
+}
+.table tr th{
+   /*color: #571F12;*/
+   color: #2f8166;
+    font-size: 50px;
+
+    
+}
+.table tr td{
+    color: black;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+body{
+    height: 100%;
+    background-image: url(/bg/im.png);
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+    filter: brightness(1.5);
+}
+.table {
+    table-layout: auto ; 
+}
+
+ 
+
+  
